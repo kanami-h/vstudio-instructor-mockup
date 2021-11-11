@@ -29,3 +29,16 @@ const classEl = document.querySelector("#nav-classes");
 const videoEl = document.querySelector("#nav-videos");
 const programEl = document.querySelector("#nav-programs");
 const membershipEl = document.querySelector("#nav-membership");
+
+// const heartEl = document.querySelectorAll(".bi-heart-fill");
+
+// heartEl.forEach((heart) => {
+//   heart.addEventListener("click", (e) => {
+//     const clickedItem = e.target;
+//     if ((clickedItem.style.color = "#bd81af")) {
+//       clickedItem.style.color = "#8d8f90";
+//     } else {
+//       clickedItem.style.color = "#bd81af";
+//     }
+//   });
+// });

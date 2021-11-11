@@ -6,7 +6,6 @@
   grid-template-areas:
     "main-nav"
     "filter"
-    "main-nav"
     "cards"
     "main-footer";
 }

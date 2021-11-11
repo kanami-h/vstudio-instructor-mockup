@@ -7,9 +7,14 @@
   border-color: transparent !important;
 }
 
+.filter-container,
+.cards-container {
+  padding: 1rem;
+}
+
 .main-header,
 .main-nav {
-  padding: 1 3rem;
+  padding: 1rem 3rem;
   background-color: #fff;
   height: 80px;
   display: flex;
@@ -25,8 +30,8 @@
   border-radius: 24px !important;
 }
 
-.logo {
-  width: 130px;
+.main-header {
+  display: none;
 }
 
 .filter-container,
@@ -35,11 +40,6 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-}
-
-.filter-container,
-.cards-container {
-  padding: 3rem;
 }
 
 .filter__tabs button {
@@ -74,4 +74,19 @@
 
 .filter__items a:hover {
   color: #686868;
+}
+
+@media (min-width: 765px) {
+  .filter-container,
+  .cards-container {
+    padding: 3rem;
+  }
+
+  .main-header {
+    display: block;
+  }
+
+  .logo {
+    width: 130px;
+  }
 }
