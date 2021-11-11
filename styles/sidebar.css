@@ -1,0 +1,125 @@
+.sidebar {
+  min-width: 320px;
+  padding: 1rem 2rem;
+}
+
+.instructor-profile {
+  text-align: center;
+}
+
+.instructor-profile__image_wrapper {
+  padding: 1rem 0;
+}
+
+.instructor-profile__image {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.review-stars {
+  color: var(--smoky-pink);
+}
+
+/* .instructor-location {
+  padding: 1rem 0 0;
+} */
+
+.instructor-name {
+  padding: 0.75rem 0;
+}
+
+.instructor-introduction {
+  text-align: left;
+  font-weight: 200;
+  color: var(--light-grey);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+}
+
+.read-more {
+  display: block;
+  text-align: right;
+}
+
+.social-media-link {
+  color: var(--green);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.join-community {
+  text-align: center;
+}
+
+.review__wrapper {
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-gap: 10px;
+  padding: 1rem;
+}
+
+.review__image {
+  align-self: center;
+}
+
+.review__image img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.review__reviwer-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.review__comment {
+  font-size: 0.9rem;
+  color: var(--light-grey);
+}
+
+/* Membership & Packs */
+.bi-card-checklist,
+.bi-briefcase-fill {
+  padding-right: 15px;
+}
+
+.member__card {
+  border-radius: var(--radious);
+  box-shadow: var(--box-shadow);
+  padding: 1.5rem 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.member__card__header {
+  font-weight: bold;
+  display: flex;
+  font-size: 1.25rem;
+  justify-content: space-between;
+}
+
+.member__card__description {
+  color: var(--light-grey);
+  text-align: left;
+  font-weight: 200;
+}
+
+.member__card__purchase {
+  margin: 0.25rem 0.5rem;
+}
+
+/* responsive */
+
+@media (min-width: 768px) {
+  .sidebar {
+    min-width: 450px;
+    padding: 1rem 2rem;
+  }
+}
