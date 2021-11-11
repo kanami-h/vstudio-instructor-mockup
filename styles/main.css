@@ -1,26 +1,40 @@
 /* grid settings */
 .main {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   grid-template-rows: 80px 80px auto;
   grid-template-areas:
-    "logo main-nav main-nav"
-    "filter filter filter "
-    "cards cards cards "
-    "main-footer main-footer main-footer ";
+    "main-nav"
+    "filter"
+    "main-nav"
+    "cards"
+    "main-footer";
 }
 
 @media (min-width: 768px) {
   .main {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 80px 80px auto;
     grid-template-areas:
-      "main-nav"
-      "filter"
-      "main-nav"
-      "cards"
-      "main-footer";
+      "logo logo"
+      "main-nav main-nav"
+      "filter filter "
+      "cards cards"
+      "main-footer main-footer";
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px 80px auto;
+    grid-template-areas:
+      "logo main-nav main-nav"
+      "filter filter filter "
+      "cards cards cards "
+      "main-footer main-footer main-footer ";
   }
 }
 

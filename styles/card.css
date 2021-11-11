@@ -1,8 +1,5 @@
 .cards-container {
   margin-top: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 20vh;
 }
 
 .card {
@@ -81,4 +78,8 @@
 
 .bi-heart-fill {
   padding-left: 10px;
+}
+
+.tab-content div {
+  flex-flow: row wrap;
 }
